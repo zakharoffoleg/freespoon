@@ -1,4 +1,4 @@
-import requests, json, bottle
+import requests, json, bottle, psycopg2
 from freelancersdk.session import Session
 from freelancersdk.resources.users.users import get_self, get_portfolios
 
